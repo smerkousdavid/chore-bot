@@ -1,0 +1,56 @@
+{
+    "regular": [
+        {
+            "name": "Trash Consolidation",
+            "short": "Brings garbage and recycling to outside bins",
+            "long": "- Empty kitchen garbage and recycling when full\n- Break down boxes and take them to bins\n- Collect loose garbage from around the house\n"
+        },
+        {
+            "name": "Kitchen counters and sink",
+            "short": "Sanitizes and organizes kitchen prep spaces and sink",
+            "long": "- Ensure prep spaces are free of clutter\n- Move any ingredients/items to their respective storage areas\n- Sanitize counters and sink\n- At the end of the week, clean any stray dishes left in sink\n"
+        },
+        {
+            "name": "Entries/Alcove floors and trash day",
+            "short": "Sweeps and mops entries and alcove and performs trash day duties",
+            "long": "- Sweep and mop both front and back entries and alcove\n- Take outside bins to curb on Thursday\n- Bring bins back from curb on Friday\n"
+        },
+        {
+            "name": "Living room and dining room",
+            "short": "Cleans and sanitizes tables and entertainment center",
+            "long": "- Remove left dishes from tables and wash them\n- Put items left in common spaces in lost and found\n- Clean and sanitize tables\n- Clean and sanitize entertainment center (TV, consoles, etc.)\n"
+        },
+        {
+            "name": "Kitchen and laundry room floors",
+            "short": "Sweeps and mops kitchen and laundry room",
+            "long": "- Sweep and mop kitchen floor\n- Sweep and mop laundry room floor\n"
+        },
+        {
+            "name": "Cooking appliances",
+            "short": "Cleans and sanitizes kitchen appliances",
+            "long": "- Empty crumbs from toaster\n- Clean and sanitize inside/outside of both microwaves, outside of fridges, range, and outside of oven\n"
+        },
+        {
+            "name": "Downstairs carpets",
+            "short": "Vacuums downstairs hallway, basement hallway, and stairs",
+            "long": "- Vacuum downstairs hallway\n- Vacuum basement hallway\n- Vacuum all stairs in the house\n"
+        },
+        {
+            "name": "Upstairs carpets",
+            "short": "Vacuum upstairs hallway and living/dining room",
+            "long": "- Vacuum upstairs hallway\n- Vacuum living and dining room (making sure to get under the couches etc.)\n"
+        }
+    ],
+    "rotation": [
+        {
+            "name": "Alcove and laundry room",
+            "short":"Cleans and sanitizes alcove and laundry room",
+            "long":"- Dust and sanitize large items and shelves in alcove\n- Dust and sanitize washer and dryer\n- Clean outside of downstairs fridge\n- Remove lint from dryer (if any)\n"
+        },
+        {
+            "name": "Kitchen rags and cleaning rags",
+            "short":"Washes kitchen/cleaning rags",
+            "long":"- Wash kitchen rags with detergent (don't create mustard gas by using bleach) \n- Dry rags before returning them to kitchen\n"
+        }
+    ]
+}
