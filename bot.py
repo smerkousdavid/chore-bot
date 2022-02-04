@@ -3,6 +3,12 @@ import json
 import copy
 import asyncio
 import datetime
+try:
+    # python2
+    import __builtin__
+except ImportError:
+    # python3
+    import builtins as __builtin__
 
 import discord
 from discord.ext import tasks
@@ -17,6 +23,9 @@ ROLE = os.getenv('DISCORD_ROLE')
 BOTNAME = os.getenv('DISCORD_BOTNAME')
 STORAGE_FILE = 'storage.json'
 WEEK_SECONDS = 60*60*24*7
+
+# hack for windows which can't handle some unicode stuff
+print = lambda x, *args, **kwargs: __builtin__.print(ascii(x), *args, **kwargs)
 
 # we want those extra perms/events
 INTENTS = discord.Intents(
